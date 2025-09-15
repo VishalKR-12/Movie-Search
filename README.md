@@ -46,24 +46,6 @@ React app to search movies via the OMDb API. Enter a title to fetch matching mov
    npm install
    ```
 
-2. Configure your OMDb API key.
-
-   Quick option (edit code):
-
-   - Open `src/pages/Home.js`
-   - Replace the value of `API_KEY` with your key
-
-   Optional .env approach (requires a tiny code change):
-
-   - Create a `.env` file at the project root with:
-
-     ```env
-     REACT_APP_OMDB_API_KEY=your_key_here
-     ```
-
-   - Update `API_KEY` usage in code to read `process.env.REACT_APP_OMDB_API_KEY`
-   - Ensure `.env` is git-ignored (common default)
-
 ## Run the app
 
 ```bash
@@ -116,3 +98,4 @@ src/
 - Network errors or throttling: OMDb free tier can rate-limit; try again later.
 - Tailwind classes not applied: verify Tailwind/PostCSS setup aligns with CRA.
 "# Movie-Search-App" 
+
